@@ -4,5 +4,6 @@
 from .banco_chile import BancoChileScraper
 from .cencosud import CencosudScraper
 from .santander import SantanderScraper
+from .banco_falabella import BancoFalabellaScraper
 
-__all__ = ["BancoChileScraper", "CencosudScraper", "SantanderScraper"]
+__all__ = ["BancoChileScraper", "CencosudScraper", "SantanderScraper", "BancoFalabellaScraper"]
